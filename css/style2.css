@@ -1,0 +1,144 @@
+*{
+    margin:0;
+   
+}
+.page-container{
+
+    height:auto;
+
+}
+.container{
+    max-width:1048px;
+    margin:0 auto;
+    border:px solid green;
+    
+    }
+.header{
+ 
+    padding:10px;
+    background: #1d1d1d;
+    background-image: url("../img/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+    .logo .logo-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 57px;
+    color:rgb(253, 253, 253);
+}
+    .header .container::after {
+        content: ""; 
+        clear: both; 
+        display: table;}
+
+.nav ul li{
+    list-style: none;
+    line-height: 50px;
+    width:150px;
+    margin-top:10px;
+   text-align: center;
+    
+    display:inline-block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background:rgba(206, 56, 76, 0.822);
+}
+.nav ul li:hover{
+  background-color: rgb(48, 131, 103);
+}
+nav{
+ 
+max-width:100%;
+   height:auto;
+    padding:30px;
+  
+    
+    
+    background-attachment: fixed;
+}
+nav li a{
+text-decoration: none;
+color:white;
+font-family:calibri;
+
+
+}
+nav ul{
+   
+   padding:0px;
+}
+.logo{
+    max-width:100%;
+  
+    float:left;
+    }
+
+.main-content{
+   
+    border:px solid green;
+    height:600px;
+  
+    max-width:100%;
+
+}
+.add-form{
+    padding:40px;
+    margin:50px auto;
+    border:2px solid #b0b1b0;
+    max-width:770px;
+    
+ 
+
+}
+.edit-form{
+    padding:30px;
+    margin:30px auto;
+    border:2px solid #b0b1b0;
+   max-width:400px;
+   flex:0;
+
+}
+input{
+   width:350px;
+   padding:10px;
+ 
+}
+.add-btn{
+    width:180px;
+    background:#459078;
+    color:white;
+    border:none;
+    padding:10px;
+}
+.update-btn{
+    max-width:130px;
+    background: orange;
+    color:white;
+    border:none;
+    padding:10px;
+    margin:0 auto;
+}
+table{
+   
+ 
+}
+.tblview table{
+
+    width:100%;
+    margin:80px auto;
+   padding:20px;
+
+    
+ }
+ .tblview{
+margin-top:60px;
+    height:400px; overflow:auto;
+border:3px solid grey;
+ }
+ th,td{
+     padding:10px;
+     text-align: center;
+     font-family: 'Lucida Sans';
+    border:1px solid grey;
+ }
+
+
